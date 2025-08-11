@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+
+    <label for="country">Select Country:</label>
+    <select id="country">
+      <option value="">--Select Country--</option>
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Canada">Canada</option>
+      <option value="Australia">Australia</option>
+      <option value="Germany">Germany</option>
+      <option value="France">France</option>
+      <option value="Japan">Japan</option>
+      <option value="Brazil">Brazil</option>
+      <option value="SouthAfrica">South Africa</option>
+    </select>
+
+    <label for="state">Select State/City:</label>
+    <select id="state" disabled>
+      <option value="">--Select State/City--</option>
+    </select>
+
+    <button id="getWeather" disabled>Get Weather</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
