@@ -3,21 +3,22 @@ It is a weather app built using the OpenWeather API that shows temperature in Ce
 
 
 ## Project structure
-
+```
 weather-app/
 │
 ├── images/
-│   ├── default.jpg
-│   ├── fogandmist.jpg
-│   ├── frost.jpg
-│   ├── heavyrain.jpg
-│   ├── hot.jpg
-│   ├── lightrain.jpg
-│   ├── snowy.jpg
-│   ├── storm.jpg
-│   ├── sunny.jpg
-│   └── windy.jpg
+│ ├── default.jpg
+│ ├── fogandmist.jpg
+│ ├── frost.jpg
+│ ├── heavyrain.jpg
+│ ├── hot.jpg
+│ ├── lightrain.jpg
+│ ├── snowy.jpg
+│ ├── storm.jpg
+│ ├── sunny.jpg
+│ └── windy.jpg
 │
 ├── index.html
 ├── script.js
 └── style.css
+``` 
