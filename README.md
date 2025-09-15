@@ -1,6 +1,11 @@
 # weather-app
-It is a weather app built using the OpenWeather API that shows temperature in Celsius and Fahrenheit, with dynamic background changes based on temperature and supports country and state selection.   
+A simple and user-friendly weather application that allows users to check the current weather and forecast for any city in the world. The app fetches weather data using an API key from a weather service, which must be provided to get real-time updates.
 
+## Features
+- Get real-time weather updates for any city.
+- Displays temperature, humidity, wind speed, and weather conditions.
+- Simple and intuitive user interface.
+- Supports multiple units (Celsius/Fahrenheit).
 
 ## Project structure
 ```
@@ -22,3 +27,13 @@ weather-app/
 ├── script.js
 └── style.css
 ``` 
+
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+## Project Demo 
+https://drive.google.com/file/d/196AHX_exuPMRsb83ceSX9EpeemKpvQf3/view?usp=drive_link
